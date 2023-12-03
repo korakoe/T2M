@@ -5,7 +5,7 @@ from os.path import join as pjoin
 import random
 import codecs as cs
 from tqdm import tqdm
-import t2m.utils.paramUtil as paramUtil
+import T2M.utils.paramUtil as paramUtil
 from torch.utils.data._utils.collate import default_collate
 
 

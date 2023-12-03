@@ -1,6 +1,6 @@
 # This code is based on https://github.com/Mathux/ACTOR.git
 import torch
-import t2m.utils.rotation_conversions as geometry
+import T2M.utils.rotation_conversions as geometry
 
 
 from smpl import SMPL, JOINTSTYPE_ROOT
