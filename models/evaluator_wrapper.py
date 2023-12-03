@@ -2,8 +2,8 @@
 import torch
 from os.path import join as pjoin
 import numpy as np
-from models.modules import MovementConvEncoder, TextEncoderBiGRUCo, MotionEncoderBiGRUCo
-from utils.word_vectorizer import POS_enumerator
+from modules import MovementConvEncoder, TextEncoderBiGRUCo, MotionEncoderBiGRUCo
+from t2m.utils.word_vectorizer import POS_enumerator
 
 def build_models(opt):
     movement_enc = MovementConvEncoder(opt.dim_pose-4, opt.dim_movement_enc_hidden, opt.dim_movement_latent)

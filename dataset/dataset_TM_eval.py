@@ -6,7 +6,7 @@ import random
 import codecs as cs
 from tqdm import tqdm
 
-import utils.paramUtil as paramUtil
+import t2m.utils.paramUtil as paramUtil
 from torch.utils.data._utils.collate import default_collate
 
 

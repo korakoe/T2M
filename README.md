@@ -88,7 +88,7 @@ Our model can be learnt in a **single GPU V100-32G**
 
 ```bash
 conda env create -f environment.yml
-conda activate T2M-GPT
+conda activate t2m
 ```
 
 The code was tested on Python 3.8 and PyTorch 1.8.1.
