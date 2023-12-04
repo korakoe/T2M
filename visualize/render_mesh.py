@@ -1,6 +1,6 @@
 import argparse
 import os
-import vis_utils
+import T2M.visualize.vis_utils
 import shutil
 from tqdm import tqdm
 

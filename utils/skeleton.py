@@ -1,4 +1,4 @@
-from quaternion import *
+from T2M.utils.quaternion import *
 import scipy.ndimage.filters as filters
 
 class Skeleton(object):

@@ -2,7 +2,7 @@
 import torch
 from os.path import join as pjoin
 import numpy as np
-from modules import MovementConvEncoder, TextEncoderBiGRUCo, MotionEncoderBiGRUCo
+from T2M.models.modules import MovementConvEncoder, TextEncoderBiGRUCo, MotionEncoderBiGRUCo
 from T2M.utils.word_vectorizer import POS_enumerator
 
 def build_models(opt):

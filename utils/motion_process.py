@@ -1,5 +1,5 @@
 import torch
-from quaternion import quaternion_to_cont6d, qrot, qinv
+from T2M.utils.quaternion import quaternion_to_cont6d, qrot, qinv
 
 def recover_root_rot_pos(data):
     rot_vel = data[..., 0]

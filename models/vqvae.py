@@ -1,5 +1,5 @@
 import torch.nn as nn
-from encdec import Encoder, Decoder
+from T2M.models.encdec import Encoder, Decoder
 from quantize_cnn import QuantizeEMAReset, Quantizer, QuantizeEMA, QuantizeReset
 
 
