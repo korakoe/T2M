@@ -1,6 +1,6 @@
 import torch.nn as nn
 from T2M.models.encdec import Encoder, Decoder
-from quantize_cnn import QuantizeEMAReset, Quantizer, QuantizeEMA, QuantizeReset
+from T2M.models.quantize_cnn import QuantizeEMAReset, Quantizer, QuantizeEMA, QuantizeReset
 
 
 class VQVAE_251(nn.Module):
