@@ -11,7 +11,7 @@ from customloss import (camera_fitting_loss,
                         body_fitting_loss_3d, 
                         )
 from prior import MaxMixturePrior
-from t2m.visualize.joints2smpl.src import config
+from T2M.visualize.joints2smpl.src import config
 
 
 
